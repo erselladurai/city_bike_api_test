@@ -3,7 +3,7 @@
 <suite name="RestApiTest">
     <test name="CityBikeApiTest">
         <classes>
-            <class name="runner.Runner"/>
+            <class name="runner.RunnerTest"/>
         </classes>
     </test>
 </suite>

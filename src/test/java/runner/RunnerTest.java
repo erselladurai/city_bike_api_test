@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
         tags = {"@city_network_test"},
         strict = true
 )
-public class Runner extends AbstractTestNGCucumberTests {
+public class RunnerTest extends AbstractTestNGCucumberTests {
 
     @Override
     @DataProvider(parallel = true)
