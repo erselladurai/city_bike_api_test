@@ -276,8 +276,7 @@
                             </property>
                             <property>
                                 <name>cucumber.plugin</name>
-                                <value>json:target/cucumber-report.json,
-                                    io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm
+                                <value>json:target/cucumber-report.json
                                 </value>
                             </property>
                             <property>
