@@ -24,5 +24,3 @@ This is recommended for debug or less scenarios during dry run
 ### Generating a report
 run the command ```mvn allure:report```, the html report will be generated in ```target/allure-results/html``` and it is named 'index.html'
 
-### To run the DataLayerReport
-run the command ```mvn test exec:java```, the html report will be generated in ```datalayer-report/html/html``` and it is named 'index.html'
