@@ -19,7 +19,6 @@ public class CityBikeNetwork {
         CityBikeAPI city = new CityBikeAPI();
         city.getCityBikeNetworks(resourceName);
         DataStore.getInstance().setNetworksGetResponse(city.getCityBikeNetworks(resourceName));
-        System.out.println(DataStore.getInstance().getNetworksGetResponse().asString());
     }
 
     @When("User will get a {int} response")
@@ -33,9 +32,9 @@ public class CityBikeNetwork {
         final JSONArray networks = jsonArray.getJSONArray("networks");
 
         long matchCount = StreamSupport.stream(networks.spliterator(), false).filter(a-> {
-            System.out.println(a);
+
             JSONObject companyArray = new JSONObject(a.toString());
-            System.out.println(companyArray);
+
             final JSONObject locationcompany = companyArray.getJSONObject("location");
             final String locationCity = locationcompany.getString("city");
             final String locationCountry = locationcompany.getString("country");
