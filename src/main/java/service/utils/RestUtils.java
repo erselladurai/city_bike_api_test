@@ -94,6 +94,6 @@ public abstract class  RestUtils {
      * @return return the default response specification object
      */
     public ResponseSpecification defaultResponseSpec() {
-        return new ResponseSpecBuilder().log(LogDetail.ALL).build();
+        return new ResponseSpecBuilder().log(LogDetail.STATUS).build();
     }
 }
