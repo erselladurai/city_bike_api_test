@@ -97,6 +97,12 @@
             <version>20171018</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-testng-adaptor -->
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-testng-adaptor</artifactId>
+            <version>1.5.4</version>
+        </dependency>
 
     </dependencies>
 
