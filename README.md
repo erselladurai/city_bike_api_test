@@ -1,7 +1,7 @@
 # City Bike Api Automated Tests 
 > City Bike Api Scenarios are automated using Java, rest assured and Maven 
 
-#User story
+## User story
 As a biker I would like to know the exact location of city bikes around the world in a given application.
 
 ·         Endpoint: http://api.citybik.es/v2/networks
