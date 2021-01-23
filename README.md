@@ -34,12 +34,14 @@ As a biker I would like to know the exact location of city bikes around the worl
 
 ### Generating a report
 **Allure setup in your system**
+
 Download allure latest version https://docs.qameta.io/allure/
 extract the binary file
 in System PATH variable add allure->bin path,
 check whether allure is installed or not, in cmd prompt run allure
 
 **Step to generate allure report**
+
 run the **GenerateReport.bat**(this should be present in the root directory) the html report will be generated and Opened in chrome automatically.
 
 ### Technical Design Overview
