@@ -1,3 +1,5 @@
+https://nchain.atlassian.net/wiki/spaces/QA/pages/1358004236/BSV+node+setup
+
 # City Bike Api Automated Tests 
 > City Bike Api Scenarios are automated using Java, rest assured and Maven 
 
