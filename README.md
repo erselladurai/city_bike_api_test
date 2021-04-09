@@ -103,3 +103,5 @@ or with a custom data directory
 2./bitcoind -datadir=<custom-dir> #choose custom data directory
 Monitor logging
 Duplicate tab in mRemoteNG (if using) and run tail -f <data directory>/regtest/bitcoind.log
+
+git clone https://srajan1988@bitbucket.org/nch-atlassian/sv.git
